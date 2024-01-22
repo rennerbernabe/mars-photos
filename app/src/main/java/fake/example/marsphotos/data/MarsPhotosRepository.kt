@@ -1,7 +1,7 @@
-package com.example.marsphotos.data
+package fake.example.marsphotos.data
 
-import com.example.marsphotos.network.MarsApiService
-import com.example.marsphotos.network.MarsPhoto
+import fake.example.marsphotos.network.MarsApiService
+import fake.example.marsphotos.network.MarsPhoto
 
 interface MarsPhotosRepository {
     suspend fun getMarsPhotos(): List<MarsPhoto>

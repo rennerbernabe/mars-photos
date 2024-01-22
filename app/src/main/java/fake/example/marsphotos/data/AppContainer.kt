@@ -1,6 +1,6 @@
-package com.example.marsphotos.data
+package fake.example.marsphotos.data
 
-import com.example.marsphotos.network.MarsApiService
+import fake.example.marsphotos.network.MarsApiService
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
